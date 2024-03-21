@@ -1,0 +1,32 @@
+
+### Obtener usuarios
+GET http://localhost:3000/users/all
+Content-Type: application/json
+
+
+### Crear un usuario
+POST http://localhost:3000/api/v1/proveedor/create
+Content-Type: application/json
+
+{
+    "id_ProvPK": "4",
+    "nomb_Prov": "keaner",
+    "fech_Reg": "2020/03/11"
+}
+
+
+### Crear un usuario
+PUT http://localhost:3000/users/update/12
+
+    {
+      "username": "jairo manue",
+      "password": "new_password",
+      "apellido": "New Doe",
+      "telefono": "987654321"
+    }
+
+### eliminar un usuario
+
+DELETE  http://localhost:3000/users/12
+  
+
